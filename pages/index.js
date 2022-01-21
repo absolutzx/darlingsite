@@ -14,38 +14,22 @@ export default function Home() {
       <main className={styles.main}>
       <img className={styles.centericon} src="https://cdn.discordapp.com/avatars/931190925445693450/45b99ddd1b05bd6659d79d4dc02a37ec.png?size=256" alt="Your Name" />
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Darling !
         </h1>
 
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="darling.tk" className={styles.card}>
+            <h2>Sobre &rarr;</h2>
+            <p>Encontre respostas detalhadas sobre as Funcionalidade do Bot.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://discord.com/oauth2/authorize?client_id=931190925445693450&permissions=8&scope=bot%20applications.commands" className={styles.card}>
+            <h2>Adicione &rarr;</h2>
+            <p>Clique aqui para adicionar o Bot ao seu servidor de Discord.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      
         </div>
       </main>
 
