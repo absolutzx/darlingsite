@@ -43,7 +43,6 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-  color: black;
 }
 
 .title,
@@ -114,6 +113,31 @@
   align-content: center;
   border-radius: 50%;
   margin-bottom: 7px
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.button {
+  border: 2px solid #d2bdff;
+  height: 80px;
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin: 25px;
 }
 
 @media (max-width: 600px) {
