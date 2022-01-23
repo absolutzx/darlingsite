@@ -29,7 +29,7 @@ export default function Home() {
       <Head>
         <title>Darling - Home</title>
         <meta name="description" content="Darling bot" />
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="https://cdn.discordapp.com/avatars/931190925445693450/45b99ddd1b05bd6659d79d4dc02a37ec.png?size=256" />
       </Head>
       
       <main className={styles.main}>
