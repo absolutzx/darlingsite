@@ -1,27 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { useTheme } from 'next-themes'
-
-const ThemeChanger = () => {
-  const { theme, setTheme } = useTheme()
-
-  return (
-    <div>
-      <button className={styles.card} onClick={() => setTheme('light')}>Light Mode</button>
-    </div>
-  )
-}
-
-const ThemeChanger2 = () => {
-  const { theme, setTheme } = useTheme()
-
-  return (
-    <div>
-      <button className={styles.card} onClick={() => setTheme('dark')}>Dark Mode</button>
-    </div>
-  )
-}
 
 export default function Home() {
   return (
@@ -39,7 +18,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="button" className={styles.card}>
+          <a href="/about" className={styles.card}>
             <h2>Sobre &rarr;</h2>
             <p>Encontre respostas detalhadas sobre as Funcionalidade do Bot.</p>
           </a>
@@ -48,17 +27,7 @@ export default function Home() {
             <h2>Adicione &rarr;</h2>
             <p>Clique aqui para adicionar o Bot ao seu servidor de Discord.</p>
           </a>
-        </div>
-
-      <div className={styles.grid}>
-        <div>
-        <ThemeChanger2></ThemeChanger2>
-        </div>
-        <div>
-          <ThemeChanger></ThemeChanger>
-        </div>
-      </div>
-        
+        </div>        
       </main>
 
       <footer className={styles.footer}>
@@ -67,10 +36,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by Stiker | Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Created by Stiker 
         </a>
       </footer>
     </div>
